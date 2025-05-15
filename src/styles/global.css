@@ -1,0 +1,51 @@
+.map-container {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Стили для попапа и кнопки удаления */
+.ol-popup {
+  background: white;
+  padding: 15px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  min-width: 200px;
+}
+
+.delete-btn {
+  background: #ff4d4f;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.delete-btn:hover {
+  background: #ff7875;
+}
+
+.popup-content h3 {
+  margin: 0 0 5px 0;
+}
+
+.edit-btn {
+  background: #1890ff;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 8px;
+}
+
+.edit-btn:hover {
+  background: #40a9ff;
+}
